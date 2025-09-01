@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _messageDal = messageDal;
         }
 
+        public List<Message> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Message t)
         {
             _messageDal.Insert(t);

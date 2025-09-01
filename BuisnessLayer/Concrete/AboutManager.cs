@@ -13,9 +13,14 @@ namespace BuisnessLayer.Concrete
     {
         IAboutDal _aboutDal;
 
-        public AboutManager(IAboutDal aboutDal)
+        public AboutManager(IAboutDal aboutDal) 
         {
             _aboutDal = aboutDal;
+        }
+
+        public List<About> GetbyFilter()
+        {
+            throw new NotImplementedException();
         }
 
         public void Tadd(About t)

@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _contactDal = contactDal;
         }
 
+        public List<Contact> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Contact t)
         {
             _contactDal.Insert(t);

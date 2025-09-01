@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _announcementDal = announcementDal;
         }
 
+        public List<Announcement> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Announcement t)
         {
             throw new NotImplementedException();

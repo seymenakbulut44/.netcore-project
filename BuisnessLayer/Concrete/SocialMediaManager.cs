@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _socialmediaDal = socialmediaDal;
         }
 
+        public List<SocialMedia> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(SocialMedia t)
         {
             _socialmediaDal.Insert(t);

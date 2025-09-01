@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _experienceDal = experienceDal;
         }
 
+        public List<Experience> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Experience t)
         {
             _experienceDal.Insert(t);

@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _portfolioDal = portfolioDal;
         }
 
+        public List<Portfolio> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Portfolio t)
         {
             _portfolioDal.Insert(t);

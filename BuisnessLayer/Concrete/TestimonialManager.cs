@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _testimonialDal = testimonialDal;
         }
 
+        public List<Testimonial> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Testimonial t)
         {
             _testimonialDal.Insert(t);

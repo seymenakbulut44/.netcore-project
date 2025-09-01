@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _serviceDal = serviceDal;
         }
 
+        public List<Service> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Service t)
         {
             _serviceDal.Insert(t);

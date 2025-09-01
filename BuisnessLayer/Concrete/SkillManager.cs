@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _skillDal = skillDal;
         }
 
+        public List<Skill> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Skill t)
         {
             _skillDal.Insert(t);

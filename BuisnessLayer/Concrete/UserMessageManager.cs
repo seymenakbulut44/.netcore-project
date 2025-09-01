@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _userMessageDal = userMessageDal;
         }
 
+        public List<UserMessage> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<UserMessage> GetUserMessagesWithUserService()
         {
             return _userMessageDal.GetUserMessageWithUser();

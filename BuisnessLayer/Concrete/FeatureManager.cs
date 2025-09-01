@@ -18,6 +18,11 @@ namespace BuisnessLayer.Concrete
             _featureDal = featureDal;
         }
 
+        public List<Feature> GetbyFilter()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Tadd(Feature t)
         {
             _featureDal.Insert(t);
