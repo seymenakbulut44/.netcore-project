@@ -18,14 +18,19 @@ namespace BuisnessLayer.Concrete
             _writerMessageDal = writerMessageDal;
         }
 
-        public List<WriterMessage> GetbyFilter(string p)
-        {
-            return _writerMessageDal.GetbyFilter(x=>x.Receiver == p);
-        }
-
         public List<WriterMessage> GetbyFilter()
         {
             throw new NotImplementedException();
+        }
+
+        public List<WriterMessage> GetListReceiverMessage(string p)
+        {
+            return _writerMessageDal.GetbyFilter(x => x.Receiver == p);
+        }
+
+        public List<WriterMessage> GetListSenderMessage(string p)
+        {
+            return _writerMessageDal.GetbyFilter(x => x.Sender == p);
         }
 
         public void Tadd(WriterMessage t)
