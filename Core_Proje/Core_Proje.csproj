@@ -19570,6 +19570,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Writer\Data\" />
+    <Folder Include="Views\Shared\Components\MessageList\" />
     <Folder Include="wwwroot\UserImage\" />
     <Folder Include="wwwroot\skydash\.git\objects\info\" />
     <Folder Include="wwwroot\skydash\.git\objects\pack\" />
